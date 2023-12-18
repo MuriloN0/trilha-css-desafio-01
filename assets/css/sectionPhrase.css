@@ -1,0 +1,27 @@
+#transform-world {
+  height: 363px;
+  width: 2000px;
+  margin: 0 auto;
+  background-image: url(../images/woman-code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  align-content: center;
+  
+}
+
+#transform-world > p {
+  font-family: raleway;
+  font-size: 35px;
+  font-weight: 900;
+  width: 220px;
+  text-align: left;
+  padding-left: 280px;
+  padding-top: 129px;
+  text-transform: lowercase;
+  text-shadow: 2px 2px #33A8DB;
+  word-wrap: break-word;
+  overflow-y: hidden;
+  display: block;
+}

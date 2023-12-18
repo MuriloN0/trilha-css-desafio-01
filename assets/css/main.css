@@ -1,0 +1,74 @@
+body {
+  background-color: #000;
+}
+p {
+  color: #fff;
+}
+
+/* Aqui estilizamos o background */
+.banner {
+  height: 600px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-image: url(../images/banner.png),
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(49, 168, 221, 0.2),
+      rgba(0, 0, 0, 0.6)
+    );
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #33a8db80;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+/* Posicionamento do logo */
+.logo {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+/* titulo da main */
+.banner-content > h1 {
+  font-family: raleway;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-image: linear-gradient(#33a8db, #1472b7);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  overflow-y: hidden;
+}
+
+/* Estilezação do texto de descrição */
+.banner-content > p {
+  font-family: raleway;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  width: 520px;
+  padding-top: 16px;
+  padding-bottom: 22px;
+}
+
+/* Estilização do botão */
+
+.banner-content > button {
+  font-family: raleway;
+  font-size: 18;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #33a8db;
+  width: 326px;
+  height: 57px;
+  background-color: transparent;
+  border-image-source: linear-gradient(#33a8db, #1472b7);
+  border-image-slice: 2;
+}

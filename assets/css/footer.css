@@ -1,0 +1,36 @@
+footer {
+  height: 170px;
+  margin: 0 auto;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(51, 168, 219, 0.2)
+  );
+  border-top: 1px solid #33A8DB;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer > .dio-logo{
+  width: 310px;
+  height: 44;
+  
+}
+
+footer > p {
+  font-family: raleway;
+  font-weight: 200;
+  font-size: 16px;
+  overflow-y: hidden;
+  padding: 10px;
+}
+
+footer > p > a {
+  color: #33A8DB;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+

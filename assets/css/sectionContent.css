@@ -1,0 +1,59 @@
+/* Section dp cpnteuso - estilização background */
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#course-content {
+  /* height: 580px; */
+  width: 800px;
+  background-color: #000;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#course-content > h2 {
+  font-family: raleway;
+  font-size: 32px;
+  font-weight: 900;
+  color: #33a8db;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+#course-content > p {
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  padding-bottom: 10px;
+  width: 780px;
+  margin: 0 auto;
+}
+
+.module-list {
+  margin: 24px 0;
+}
+
+.module {
+  color: #fff;
+  width: 500px;
+  margin: 0 auto 24px;
+  font-size: 16;
+  font-family: raleway;
+  font-weight: 300;
+  background-color: #252525;
+  padding: 16px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: 0.5px solid #33a8db;
+}
+
+.module > span {
+  color: #33a8db;
+}
